@@ -18,7 +18,7 @@ steps:
     inputs:
       command: 'push'
       tags: 'latest'
-      containerRegistry: 'containergroupexample'
+      containerRegistry: '86d80b68-84e6-4132-8050-f732fee02a6c'
   - task: Docker@2
     displayName: 'Docker Compose Up'
     inputs:
