@@ -18,7 +18,7 @@ steps:
     inputs:
       command: 'push'
       tags: 'latest'
-      containerRegistry: 'myregistervs2'
+      containerRegistry: 'ContainerGroupExample'
   - task: Docker@2
     displayName: 'Docker Compose Up'
     inputs:
